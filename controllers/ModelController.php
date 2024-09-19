@@ -10,8 +10,8 @@ class ModelController {
     }
 
     public function modelIndex() {
-        $id_secao = isset($_GET['id']) ? (int) $_GET['id'] : null; 
-        $models = $this->ModelModulos->getModulos($id_secao);
+        $id_modulo = isset($_GET['id']) ? (int) $_GET['id'] : null; 
+        $models = $this->ModelModulos->getModulos($id_modulo);
         require '../views/modulo.php'; 
     }
 }

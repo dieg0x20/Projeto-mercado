@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img src="../assets/imagens/mapa-removebg.png" usemap="#image-map">
+        <map name="image-map">
+            <area target="" alt="Área 1" title="Área 1" href="../public/index.php?id=1" coords="85,1,170,15"
+                shape="rect">
+            <area target="" alt="Área 2" title="Área 2" href="../public/index.php?id=2" coords="85,31,169,19"
+                shape="rect">
+            <area target="" alt="Área 3" title="Área 3" href="../public/index.php?id=3" coords="84,48,168,34"
+                shape="rect">
+            <area target="" alt="Área 4" title="Área 4" href="../public/index.php?id=4" coords="85,66,169,48"
+                shape="rect">
+            <area target="" alt="Área 5" title="Área 5" href="../public/index.php?id=5" coords="85,80,170,62"
+                shape="rect">
+            <area target="" alt="Área 6" title="Área 6" href="../public/index.php?id=6" coords="86,96,170,82"
+                shape="rect">
+            <area target="" alt="Área 7" title="Área 7" href="../public/index.php?id=7" coords="86,113,170,96"
+                shape="rect">
+            <area target="" alt="Área 8" title="Área 8" href="../public/index.php?id=8" coords="84,126,169,112"
+                shape="rect">
+            <area target="" alt="Área 9" title="Área 9" href="../public/index.php?id=9" coords="86,142,169,128"
+                shape="rect">
+        </map>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const valor = urlParams.get('valor');
+            console.log(valor); // Aqui você pode usar o valor como precisar
+        </script>
+    </div>
+</body>
+
+</html>
