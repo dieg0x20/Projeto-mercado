@@ -12,7 +12,7 @@
         <ul>
             <?php foreach ($models as $modulo): ?>
                 <li>
-                    Módulo: <?php echo htmlspecialchars($modulo['Nome_modulo']); ?> - Seção: <?php echo htmlspecialchars($modulo['Nome_secao']); ?>
+                    Módulo: <?php echo htmlspecialchars($modulo['Nome_modulo']); ?> - Seção: <?php echo htmlspecialchars($modulo['Nome_secao']); ?> - Loja <?php echo htmlspecialchars(($modulo['Nome_loja']));?>
                 </li>
             <?php endforeach; ?>
         </ul>
